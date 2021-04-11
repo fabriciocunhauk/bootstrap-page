@@ -11,6 +11,10 @@
     height: 100vh;
 }
 
+.navbar-brand img {
+    height: 50px;
+}
+
 .title-content {
     height: 90vh;
     display: flex;
@@ -53,4 +57,11 @@
 
 .card-body i {
     color: #4F8BFC;
+}
+
+.section3 {
+    background-image: url('../images/pexels-lalesh-aldarwish-167964.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
 }
