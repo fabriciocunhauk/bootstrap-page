@@ -1,0 +1,56 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.section1 {
+    background-image: url('../images/pexels-omar-alnahi-18495.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+}
+
+.title-content {
+    height: 90vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 0 5%;
+}
+
+.title-content h1 {
+    font-size: 4rem;
+    color: white;
+}
+
+.title-content button {
+    width: 150px;
+}
+
+.section2 {
+    padding: 20px;
+    min-height: 40vh;
+    background: black;
+}
+
+.card {
+    width: 300px;
+    height: 200px;
+}
+
+.card-body {
+    text-align: center;
+}
+
+.card-body img {
+    height: 50px;
+}
+
+.card-body p {
+    margin-top: 20px;
+}
+
+.card-body i {
+    color: #4F8BFC;
+}
