@@ -60,8 +60,21 @@
 }
 
 .section3 {
-    background-image: url('../images/pexels-lalesh-aldarwish-167964.jpg');
+    background-image: url('../images/hands-heart.jpg');
     background-repeat: no-repeat;
     background-size: cover;
     height: 100vh;
+}
+
+.article-content {
+    color: white;
+}
+
+.article-content h1 span {
+    color: grey;
+}
+
+.article-content ul li p {
+    font-size: 1.5rem;
+    margin-top: 40px;
 }
