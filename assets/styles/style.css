@@ -8,7 +8,7 @@
     background-image: url('../images/pexels-omar-alnahi-18495.jpg');
     background-repeat: no-repeat;
     background-size: cover;
-    height: 100vh;
+    min-height: 100vh;
 }
 
 .navbar-brand img {
@@ -43,6 +43,12 @@
     height: 200px;
 }
 
+@media (max-width: 768px) {
+    .card {
+        margin-bottom: 40px;
+    }
+}
+
 .card-body {
     text-align: center;
 }
@@ -63,7 +69,7 @@
     background-image: url('../images/hands-heart.jpg');
     background-repeat: no-repeat;
     background-size: cover;
-    height: 100vh;
+    min-height: 100vh;
 }
 
 .article-content {
@@ -77,4 +83,25 @@
 .article-content ul li p {
     font-size: 1.5rem;
     margin-top: 40px;
+}
+
+.section4 {
+    min-height: 100vh;
+    background: black;
+    color: white;
+}
+
+@media (min-width: 1440px) {
+    .section4 .pl-6 {
+        padding: 0 200px 0 50px;
+    }
+}
+
+.section4 .section4-img {
+    width: 350px;
+    height: 470px;
+}
+
+.section4 p span {
+    color: #4F8BFC;
 }
